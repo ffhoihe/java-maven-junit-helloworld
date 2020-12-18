@@ -4,7 +4,6 @@ pipeline {
     stage('checkout project') {
       steps {
         checkout scm
-        git ' java-maven-junit-helloworld '
       }
     }
 
